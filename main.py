@@ -34,7 +34,7 @@ while escolha < 1 or escolha > 2:
     escolha = int(input(f"""
 {amarelo}[{nulo}{rosa} 1 {nulo}{amarelo}]{nulo} {amarelo}={nulo} {verde1}DnsBrute{nulo}
 {amarelo}[{nulo}{rosa} 2 {nulo}{amarelo}]{nulo} {amarelo}={nulo} {vermelho1}exit{nulo}
-\033[0;30;34m┌──(DNS㉿BRUTE!)-[~]
+\033[0;30;34m┌──(DNS㉿DIRECTORY!)-[~]
 └─>\033[0;30;0m """))
     print(''' ''')
 #escolha
@@ -72,6 +72,7 @@ if escolha == 1:
                 input('Press enter...')
         except:
             print(f'{vermelho}', sub_alvo, f'OFF!{nulo}')
+            os.system('clear')
 elif escolha == 2:
     print(f'{vermelho1}Saindo...{nulo}')
     exit()
