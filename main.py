@@ -72,7 +72,7 @@ if escolha == 1:
                 input('Press enter...')
         except:
             print(f'{vermelho}', sub_alvo, f'OFF!{nulo}')
-            time.sleep(0.2)
+            time.sleep(0.1)
             os.system('clear')
 elif escolha == 2:
     print(f'{vermelho1}Saindo...{nulo}')
